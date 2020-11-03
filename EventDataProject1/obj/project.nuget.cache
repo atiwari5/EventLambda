@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "sa7M/t4OjAQbC5zdK5Qoa00zUuKLgoI6pCQI2yZT6JP9QUtJ9S23+2taXrUqdwlA8ojK3/WAuiECPUM7uISVMA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Amit Tiwari\\source\\repos\\EventDataProject1\\EventDataProject1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Amit Tiwari\\.nuget\\packages\\amazon.core\\0.17.2\\amazon.core.0.17.2.nupkg.sha512",
+    "C:\\Users\\Amit Tiwari\\.nuget\\packages\\amazon.lambda.apigatewayevents\\2.3.0\\amazon.lambda.apigatewayevents.2.3.0.nupkg.sha512",
+    "C:\\Users\\Amit Tiwari\\.nuget\\packages\\amazon.lambda.core\\1.1.0\\amazon.lambda.core.1.1.0.nupkg.sha512",
+    "C:\\Users\\Amit Tiwari\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.0.0\\amazon.lambda.serialization.systemtextjson.2.0.0.nupkg.sha512",
+    "C:\\Users\\Amit Tiwari\\.nuget\\packages\\amazon.sqs\\0.18.0\\amazon.sqs.0.18.0.nupkg.sha512",
+    "C:\\Users\\Amit Tiwari\\.nuget\\packages\\awssdk.core\\3.5.1.32\\awssdk.core.3.5.1.32.nupkg.sha512",
+    "C:\\Users\\Amit Tiwari\\.nuget\\packages\\awssdk.sqs\\3.5.0.34\\awssdk.sqs.3.5.0.34.nupkg.sha512",
+    "C:\\Users\\Amit Tiwari\\.nuget\\packages\\carbon.messaging\\1.5.0\\carbon.messaging.1.5.0.nupkg.sha512",
+    "C:\\Users\\Amit Tiwari\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

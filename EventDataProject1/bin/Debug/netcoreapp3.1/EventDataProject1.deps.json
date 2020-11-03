@@ -1,0 +1,176 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "EventDataProject1/1.0.0": {
+        "dependencies": {
+          "AWSSDK.SQS": "3.5.0.34",
+          "Amazon.Lambda.APIGatewayEvents": "2.3.0",
+          "Amazon.Lambda.Core": "1.1.0",
+          "Amazon.Lambda.Serialization.SystemTextJson": "2.0.0",
+          "Amazon.Sqs": "0.18.0",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "EventDataProject1.dll": {}
+        }
+      },
+      "Amazon.Core/0.17.2": {
+        "runtime": {
+          "lib/netcoreapp3.1/Amazon.Core.dll": {
+            "assemblyVersion": "0.17.2.0",
+            "fileVersion": "0.17.2.0"
+          }
+        }
+      },
+      "Amazon.Lambda.APIGatewayEvents/2.3.0": {
+        "runtime": {
+          "lib/netcoreapp3.1/Amazon.Lambda.APIGatewayEvents.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.2.0.0"
+          }
+        }
+      },
+      "Amazon.Lambda.Core/1.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/Amazon.Lambda.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Amazon.Lambda.Serialization.SystemTextJson/2.0.0": {
+        "dependencies": {
+          "Amazon.Lambda.Core": "1.1.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Amazon.Lambda.Serialization.SystemTextJson.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Amazon.Sqs/0.18.0": {
+        "dependencies": {
+          "Amazon.Core": "0.17.2",
+          "Carbon.Messaging": "1.5.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Amazon.Sqs.dll": {
+            "assemblyVersion": "0.18.0.0",
+            "fileVersion": "0.18.0.0"
+          }
+        }
+      },
+      "AWSSDK.Core/3.5.1.32": {
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.5.1.32"
+          }
+        }
+      },
+      "AWSSDK.SQS/3.5.0.34": {
+        "dependencies": {
+          "AWSSDK.Core": "3.5.1.32"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.SQS.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.5.0.34"
+          }
+        }
+      },
+      "Carbon.Messaging/1.5.0": {
+        "runtime": {
+          "lib/netstandard2.0/Carbon.Messaging.dll": {
+            "assemblyVersion": "1.5.0.0",
+            "fileVersion": "1.5.0.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EventDataProject1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Amazon.Core/0.17.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1MxgLKc1shgaQTItD78DClwmNZSEAJsQRuvF+2CjYD7Oev4wnxu9ksReBZqQf2pjohKRiLAno35+ti6fqJNfBg==",
+      "path": "amazon.core/0.17.2",
+      "hashPath": "amazon.core.0.17.2.nupkg.sha512"
+    },
+    "Amazon.Lambda.APIGatewayEvents/2.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6tlHmsY3lqk9k4v0ndMEYwdIFrbTOdle/0gyPL7U/zUC3/ApFKAMa2dURwV0H2XQkqzk9W6D6emq0J9jgxJPfw==",
+      "path": "amazon.lambda.apigatewayevents/2.3.0",
+      "hashPath": "amazon.lambda.apigatewayevents.2.3.0.nupkg.sha512"
+    },
+    "Amazon.Lambda.Core/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ueGId8b4DEHoVWkHDs3iAJH8IUSAUGu5AqkoI/Syl4RuByzik7lz9IjoImiGAlGhtsQV02MHNeTo04IFjS37gQ==",
+      "path": "amazon.lambda.core/1.1.0",
+      "hashPath": "amazon.lambda.core.1.1.0.nupkg.sha512"
+    },
+    "Amazon.Lambda.Serialization.SystemTextJson/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-En67XZpjBILNrLdb/7HqGtqkPjoRYDjViY4+PEn1CAe53FNStU/vbcVtDvDyvQeUnFgMui3zvMdlsjJIzBPHdQ==",
+      "path": "amazon.lambda.serialization.systemtextjson/2.0.0",
+      "hashPath": "amazon.lambda.serialization.systemtextjson.2.0.0.nupkg.sha512"
+    },
+    "Amazon.Sqs/0.18.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-crEdlxePzVJiWDsNe3cAGduYvLgGnhIBxdq4FEXixpgWvrIzepeTRRlAXzReKWts1cBavdH574t4t4/0j+6rNw==",
+      "path": "amazon.sqs/0.18.0",
+      "hashPath": "amazon.sqs.0.18.0.nupkg.sha512"
+    },
+    "AWSSDK.Core/3.5.1.32": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rNxli5HjbQdFmibqHQhXgOtIS35A8Gt6k8XWyJAse/QoChfbsTqXjzKnws24DMUVK3dzf3knpD1mgpXS9XJ1zA==",
+      "path": "awssdk.core/3.5.1.32",
+      "hashPath": "awssdk.core.3.5.1.32.nupkg.sha512"
+    },
+    "AWSSDK.SQS/3.5.0.34": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-THinH7q0IywOwb7tfL6Z/7g+NA8mVrpPg1TFQftVyNT/NEQcNFHtWTpBOybmiLZBNPnaLRB9KH30sdpLpGxCDA==",
+      "path": "awssdk.sqs/3.5.0.34",
+      "hashPath": "awssdk.sqs.3.5.0.34.nupkg.sha512"
+    },
+    "Carbon.Messaging/1.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jKZNy74FCjJcrFIlaHiFQQQfVCJADzGIlSR7E+Z+/Eje7fbNthiPXsjAj0dOY4czgJVKiYuCU7c+DDY2bjhHfQ==",
+      "path": "carbon.messaging/1.5.0",
+      "hashPath": "carbon.messaging.1.5.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    }
+  }
+}
