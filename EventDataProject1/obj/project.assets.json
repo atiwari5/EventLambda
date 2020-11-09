@@ -93,99 +93,6 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       }
-    },
-    ".NETCoreApp,Version=v3.1/linux-x64": {
-      "Amazon.Core/0.17.2": {
-        "type": "package",
-        "compile": {
-          "lib/netcoreapp3.1/Amazon.Core.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/Amazon.Core.dll": {}
-        }
-      },
-      "Amazon.Lambda.APIGatewayEvents/2.3.0": {
-        "type": "package",
-        "compile": {
-          "lib/netcoreapp3.1/Amazon.Lambda.APIGatewayEvents.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/Amazon.Lambda.APIGatewayEvents.dll": {}
-        }
-      },
-      "Amazon.Lambda.Core/1.1.0": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Amazon.Lambda.Core.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Amazon.Lambda.Core.dll": {}
-        }
-      },
-      "Amazon.Lambda.Serialization.SystemTextJson/2.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Amazon.Lambda.Core": "1.1.0"
-        },
-        "compile": {
-          "lib/netcoreapp3.1/Amazon.Lambda.Serialization.SystemTextJson.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/Amazon.Lambda.Serialization.SystemTextJson.dll": {}
-        }
-      },
-      "Amazon.Sqs/0.18.0": {
-        "type": "package",
-        "dependencies": {
-          "Amazon.Core": "0.17.2",
-          "Carbon.Messaging": "1.5.0"
-        },
-        "compile": {
-          "lib/netcoreapp3.1/Amazon.Sqs.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/Amazon.Sqs.dll": {}
-        }
-      },
-      "AWSSDK.Core/3.5.1.32": {
-        "type": "package",
-        "compile": {
-          "lib/netcoreapp3.1/AWSSDK.Core.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/AWSSDK.Core.dll": {}
-        }
-      },
-      "AWSSDK.SQS/3.5.0.34": {
-        "type": "package",
-        "dependencies": {
-          "AWSSDK.Core": "[3.5.1.32, 3.6.0)"
-        },
-        "compile": {
-          "lib/netcoreapp3.1/AWSSDK.SQS.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/AWSSDK.SQS.dll": {}
-        }
-      },
-      "Carbon.Messaging/1.5.0": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Carbon.Messaging.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Carbon.Messaging.dll": {}
-        }
-      },
-      "Newtonsoft.Json/12.0.3": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
-        }
-      }
     }
   },
   "libraries": {
@@ -376,11 +283,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Amit Tiwari\\source\\repos\\EventDataProject1\\EventDataProject1.csproj",
+      "projectUniqueName": "C:\\EventProject\\EventLambda\\EventDataProject1\\EventDataProject1.csproj",
       "projectName": "EventDataProject1",
-      "projectPath": "C:\\Users\\Amit Tiwari\\source\\repos\\EventDataProject1\\EventDataProject1.csproj",
+      "projectPath": "C:\\EventProject\\EventLambda\\EventDataProject1\\EventDataProject1.csproj",
       "packagesPath": "C:\\Users\\Amit Tiwari\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Amit Tiwari\\source\\repos\\EventDataProject1\\obj\\",
+      "outputPath": "C:\\EventProject\\EventLambda\\EventDataProject1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Amit Tiwari\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -448,11 +355,6 @@
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
-      }
-    },
-    "runtimes": {
-      "linux-x64": {
-        "#import": []
       }
     }
   }

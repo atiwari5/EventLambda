@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Amit Tiwari\\source\\repos\\EventDataProject1\\EventDataProject1.csproj": {}
+    "C:\\EventProject\\EventLambda\\EventDataProject1\\EventDataProject1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Amit Tiwari\\source\\repos\\EventDataProject1\\EventDataProject1.csproj": {
+    "C:\\EventProject\\EventLambda\\EventDataProject1\\EventDataProject1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Amit Tiwari\\source\\repos\\EventDataProject1\\EventDataProject1.csproj",
+        "projectUniqueName": "C:\\EventProject\\EventLambda\\EventDataProject1\\EventDataProject1.csproj",
         "projectName": "EventDataProject1",
-        "projectPath": "C:\\Users\\Amit Tiwari\\source\\repos\\EventDataProject1\\EventDataProject1.csproj",
+        "projectPath": "C:\\EventProject\\EventLambda\\EventDataProject1\\EventDataProject1.csproj",
         "packagesPath": "C:\\Users\\Amit Tiwari\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Amit Tiwari\\source\\repos\\EventDataProject1\\obj\\",
+        "outputPath": "C:\\EventProject\\EventLambda\\EventDataProject1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Amit Tiwari\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -79,11 +79,6 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "linux-x64": {
-          "#import": []
         }
       }
     }
