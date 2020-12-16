@@ -52,12 +52,22 @@ Core principles of the development are:
 ## Implementation View
 Following sequence diagram shows them in action:
 
-![Event Service](docs/diagram/EventArchitecture.svg)
+![Event Service](docs/diagram/Image.jpeg)
 
 
 > High Level Processing.
 >
-> - Event Notifier will publish a JOSN message on API GateWay. 
+> Event Notification Application :
+    > - React App, for building the storefront that displays the products/services.
+    > - User authentication
+    > - AWS Lambda for handling the checkout process. 
+    > - Cart processing. 
+    > - Stripe/react-stripe-elements for managing the payment process.
+    > - Firebase or Cloudinary storage for uploading pictures and videos.
+    > - Notification of Purchase to be posted to API Gateway 
+    > - API Security : JWT , OAUTH2
+
+Event Notifier will publish a JOSN message on API GateWay. 
 > - API Gateway will invoke Lambda function.
 > - Lambda Function will store message in DB and publish a topic.
 > - SNS will read tpoic and invoke another Lambda Function.
