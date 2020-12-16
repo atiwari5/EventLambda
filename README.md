@@ -58,14 +58,14 @@ Following sequence diagram shows them in action:
 > High Level Processing.
 >
 > Event Notification Application :
-    > - React App, for building the storefront that displays the products/services.
-    > - User authentication
-    > - AWS Lambda for handling the checkout process. 
-    > - Cart processing. 
-    > - Stripe/react-stripe-elements for managing the payment process.
-    > - Firebase or Cloudinary storage for uploading pictures and videos.
-    > - Notification of Purchase to be posted to API Gateway 
-    > - API Security : JWT , OAUTH2
+> - React App, for building the storefront that displays the products/services.
+> - User authentication
+> - AWS Lambda for handling the checkout process. 
+> - Cart processing. 
+> - Stripe/react-stripe-elements for managing the payment process.
+> - Firebase or Cloudinary storage for uploading pictures and videos.
+> - Notification of Purchase to be posted to API Gateway 
+> - API Security : JWT , OAUTH2
 
 Event Notifier will publish a JOSN message on API GateWay. 
 > - API Gateway will invoke Lambda function.
